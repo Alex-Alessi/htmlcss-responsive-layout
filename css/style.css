@@ -166,4 +166,14 @@ ul {
   display: flex;
   justify-content: space-evenly;
   padding-left: 50px;
+  padding-right: 50px;
+  flex-wrap: wrap;
+}
+
+.bottom-list-item {
+  text-decoration: underline;
+  text-align: center;
+  margin-left: 27px;
+  font-size: 12px;
+  margin-top: 10px;
 }
