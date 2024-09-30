@@ -1,3 +1,12 @@
+/* FONT */
+@font-face {
+  font-family: Montserrat;
+  src: url(./Fonts/Montserrat/Montserrat-Light.ttf);
+
+  font-family: Nerko_One;
+  src: url(./Fonts/Nerko_One/NerkoOne-Regular.ttf);
+}
+
 /* # RESET */
 
 * {
@@ -6,8 +15,18 @@
   padding: 0;
 }
 
+.debug {
+  border: 2px dashed black;
+  padding: 5px;
+}
+
+header {
+  font-family: "Nerko_One";
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat";
+  background-color: #f6f5f3;
 }
 
 img {
@@ -29,6 +48,24 @@ ul {
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  width: 1000px;
+  width: 480px;
   max-width: 100%;
+}
+
+.header {
+  max-width: 100%;
+}
+.title {
+  background-color: white;
+  color: orange;
+  text-align: center;
+}
+
+.box-video {
+  background-color: white;
+}
+
+.bottom-page {
+  background-color: #7c69a4;
+  color: white;
 }
