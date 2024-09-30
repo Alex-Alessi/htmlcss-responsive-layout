@@ -52,6 +52,8 @@ ul {
   max-width: 100%;
 }
 
+/* HEADER */
+
 .header {
   max-width: 100%;
 }
@@ -61,6 +63,21 @@ ul {
   text-align: center;
 }
 
+/* SCRITTE */
+.sottotitolo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: small;
+  padding: 15px 0 5px;
+}
+
+.nome-dolce {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(78 57 105);
+  padding-bottom: 17px;
+}
+
+/* CONTAINER VIDEO */
 .box-video {
   background-color: white;
 }
