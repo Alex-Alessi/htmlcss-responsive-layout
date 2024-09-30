@@ -155,3 +155,15 @@ ul {
   padding-top: 20px;
   text-align: center;
 }
+
+.indirizzo {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 8px;
+}
+
+.bottom-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 50px;
+}
