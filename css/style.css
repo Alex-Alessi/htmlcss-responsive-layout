@@ -79,12 +79,15 @@ ul {
 
 .presentation {
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 10px;
+  -webkit-text-stroke-width: thin;
+  letter-spacing: 2px;
+  font-size: larger;
 }
 
 .text {
   padding-top: 10px;
   padding-bottom: 30px;
+  line-height: 25px;
 }
 
 /* CONTAINER VIDEO */
@@ -126,8 +129,29 @@ ul {
   padding-left: 80px;
   padding-right: 80px;
 }
+
+.linea-gialla {
+  height: 1px;
+  width: 75px;
+  background-color: orange;
+  margin-bottom: 10px;
+}
+
+/* MAIN */
+.box-presentation {
+  width: 200px;
+  height: 25px;
+}
+
 /* FOOTER */
 .bottom-page {
   background-color: #7c69a4;
   color: white;
+}
+
+.azienda {
+  font-size: 14px;
+  font-family: "arial";
+  padding-top: 20px;
+  text-align: center;
 }
