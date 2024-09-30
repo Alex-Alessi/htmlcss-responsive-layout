@@ -77,6 +77,16 @@ ul {
   padding-bottom: 17px;
 }
 
+.presentation {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+.text {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
 /* CONTAINER VIDEO */
 .box-video {
   background-color: white;
@@ -94,6 +104,28 @@ ul {
   padding: 4px 20px;
 }
 
+/* BUTTON */
+.button {
+  height: 30px;
+  width: 40px;
+  background-color: white;
+  padding: 7px 13px;
+  border-radius: 13px;
+}
+
+.line-buttons {
+  padding: 20px 0 20px;
+}
+
+.container .line-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img1 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
 /* FOOTER */
 .bottom-page {
   background-color: #7c69a4;
