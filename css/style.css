@@ -90,6 +90,10 @@ ul {
   line-height: 25px;
 }
 
+.dolce-tradizionale {
+  display: none;
+}
+
 /* CONTAINER VIDEO */
 .box-video {
   background-color: white;
@@ -176,4 +180,18 @@ ul {
   margin-left: 27px;
   font-size: 12px;
   margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    text-align: start;
+  }
+
+  .dolce-tradizionale {
+    display: contents;
+  }
+
+  .container {
+    width: 700px;
+  }
 }
